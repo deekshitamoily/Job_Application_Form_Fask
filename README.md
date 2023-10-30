@@ -15,12 +15,13 @@ Before you can run this application, make sure you have the following prerequisi
 - Python (3.7 or higher)
 - Pip (Python package manager)
 
-  ### Installation
+### Installation
 
 1. Clone the repository to your local machine:
 
    git clone https://github.com/your-username/job-application-form.git
    cd job-application-form
+   
 2.Install the required packages:
 
 pip install -r requirements.txt
@@ -29,6 +30,7 @@ pip install -r requirements.txt
 1. Run the Flask application:
 
 python app.py
+
 2.Open your web browser and go to http://localhost:5000 to access the job application form.
 
 3.Fill in the required fields, including first name, last name, email, available start date, and current occupation.
@@ -38,7 +40,7 @@ python app.py
 5.After submission, you will receive a success message and a confirmation email with your submitted information.
 
 ### Configuration
-Configuration
+
 To configure email settings for sending confirmation emails, edit the app.config values for MAIL_SERVER, MAIL_PORT, MAIL_USE_SSL, MAIL_USERNAME, and MAIL_PASSWORD in app.py.
 
 To configure the SQLite database file location, edit the SQLALCHEMY_DATABASE_URI value in app.py.
